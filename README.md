@@ -1,4 +1,4 @@
-# Vidzenia is a project that uses reactJS for the front end a nodeJS Server to upload videos
+# Vidzenia is a project that uses reactJS for the front end & a nodeJS Server to upload videos
 
 
 
