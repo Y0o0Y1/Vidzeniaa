@@ -9,7 +9,7 @@
 ### 1-Clone the repo using the github cli 
 ### 2-cd to the project directory
 ### 3-Install the npm_modules & Packages via "npm install"
-### 4-to run the client & server in the same use the command "npm run dev" (used concurrently package)
+### 4-to run the client & server in the same time use the command "npm run dev" (used concurrently package)
 
 
 
@@ -24,3 +24,4 @@
 ### 4-cypress to test the home route 
 ### 5-react-player to preview the video
 ### 6-nodemon to relaunch the server 
+### 7-concurrently to run both of the development servers for the client & the server
