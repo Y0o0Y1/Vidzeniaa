@@ -6,10 +6,10 @@
 
 
 ## Steps to run the project
-1-Clone the repo using the github cli 
-2-cd to the project directory
-3-Install the npm_modules & Packages via "npm install"
-4-to run the client & server in the same use the command "npm run dev" (used concurrently package)
+# 1-Clone the repo using the github cli 
+# 2-cd to the project directory
+# 3-Install the npm_modules & Packages via "npm install"
+# 4-to run the client & server in the same use the command "npm run dev" (used concurrently package)
 
 
 
