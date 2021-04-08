@@ -1,0 +1,34 @@
+$primary-color: #189ab4b6;
+$secondary-color:#D4F1F4;
+$third-color: #D4F1F4;
+$font-stack: "Sansita", sans-serif;
+
+.header{
+    display: grid;
+    background-color: $primary-color;
+    margin-top: 0;
+    padding: 0;
+    height: 100%;
+    border-bottom: 10px solid $third-color;
+    border-top: 10px solid $third-color;
+
+}
+.title{
+    grid-row: 1/1;
+    grid-column: 1/2;
+    display: block;
+    color: $secondary-color;
+    font: $font-stack;
+    font-size: 50px;
+    font-style: italic;
+}
+.quote{
+    justify-self: end;
+    max-width: 550px;
+}
+.quote h3 {
+    color: $secondary-color;
+    font: $font-stack;
+    font-size: 30px;
+    font-style: italic; 
+}

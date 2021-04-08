@@ -1,0 +1,91 @@
+.upload-section{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.upload-section .input{
+    color:rgb(255, 255, 255);
+    border: 5px solid #75E6DA;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.64);
+    padding: 10px 250px 10px 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.input-title{
+    color:rgb(255, 255, 255);
+    border: 5px solid #75E6DA;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.64);
+    padding: 10px 25px 10px 15px;
+    font-size: 25px;
+}
+input[type="submit"],button{
+    margin-left: 20px;
+    border: 6px solid #75E6DA;
+    border-radius: 25px;
+    color: white;
+    background-color: hsl(174, 69%, 68%);
+    font-size: 25px;
+    cursor: pointer;
+}
+input[type="submit"]:hover,button:hover{
+    background-color: white;
+    border: 6px solid white;
+    color: hsl(174, 69%, 68%);
+}
+input[type=file]::file-selector-button, .input {
+    justify-self: start;
+    border: 6px solid #75E6DA;
+    color: white;
+    margin:0px 20px 0px 0px;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: hsl(174, 69%, 68%);
+    transition: 1s;
+}
+.video-section{
+    display:grid ;
+    justify-content: center;
+    align-content: center;
+}
+.video-title{
+    align-self: center;
+    justify-self: center;
+}
+.player-wrapper{
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+
+}
+.submission-form{
+    margin-top: 10px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.submission-form form{
+    padding: 20px;
+
+}
+.color-picker{
+    margin:0px 20px;
+    width: 10%;
+
+    padding: 0px 2px;
+}
+.color-picker-wrapper{
+    margin:5px 20px
+}
+.color-picker-wrapper label{
+    font-size: 25px;
+    color:white;
+}
